@@ -1,6 +1,7 @@
 {
-  "name": "9woke-minecraft-real",
-  "version": "1.0.0",
+  "name": "minecraft-100-bot-army",
+  "version": "2.0.0",
+  "description": "Revolutionary 100-bot Minecraft automation system with AI video editing",
   "private": true,
   "type": "commonjs",
   "scripts": {
@@ -8,8 +9,22 @@
     "bot:director": "node bots/director_bot.js",
     "story": "node bots/story_runner_bot.js",
     "series": "node bots/series_runner_bot.js",
-    "9woke": "node bots/series_runner_bot.js"
+    "9woke": "node bots/series_runner_bot.js",
+    "generate-bots": "node scripts/generate_bots.js",
+    "orchestrator": "node bots/control/grand_orchestrator_bot.js",
+    "test-orchestrator": "node bots/control/grand_orchestrator_bot.js",
+    "test-video-editor": "node src/video/ai_drama_hook_editor.js",
+    "lumberjack-squad": "node bots/resource/lumberjack_squad_leader.js",
+    "wall-builder": "node bots/construction/wall_builder_01.js"
   },
+  "keywords": [
+    "minecraft",
+    "automation",
+    "bots",
+    "ai",
+    "video-editing",
+    "viral-content"
+  ],
   "dependencies": {
     "dotenv": "^16.4.5",
     "mineflayer": "^4.22.0",
