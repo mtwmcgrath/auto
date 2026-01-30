@@ -1,0 +1,185 @@
+{
+  "version": "2.0.0",
+  "botArmySize": 100,
+  "description": "Configuration for 100-bot Minecraft automation system",
+  
+  "hardware": {
+    "targetCPU": "AMD Ryzen 7 1700 (8C/16T)",
+    "targetRAM": "32GB",
+    "targetGPU": "GTX 1050 Ti",
+    "optimizedFor": "80-100 bots",
+    "notes": "Optimized for user's specific hardware setup"
+  },
+  
+  "botCounts": {
+    "ai": {
+      "storyAnalyzer": 1,
+      "imageVision": 1,
+      "architect": 1,
+      "themeDesigner": 1,
+      "total": 4
+    },
+    "resource": {
+      "lumberjackLeader": 1,
+      "lumberjackWorkers": 20,
+      "minerChief": 1,
+      "minerWorkers": 20,
+      "farmers": 3,
+      "fishermen": 3,
+      "total": 48
+    },
+    "construction": {
+      "foundationBuilders": 2,
+      "wallBuilders": 10,
+      "roofBuilders": 2,
+      "interiorDesigners": 3,
+      "roadPavers": 2,
+      "landscapers": 2,
+      "skyscraperSpecialists": 2,
+      "detailWorkers": 9,
+      "total": 32
+    },
+    "support": {
+      "supplyChainManager": 1,
+      "couriers": 10,
+      "inventoryManagers": 2,
+      "toolSmiths": 2,
+      "security": 2,
+      "nightShiftCoordinator": 1,
+      "maintenance": 3,
+      "total": 21
+    },
+    "artists": {
+      "statueBuilders": 2,
+      "signWriter": 1,
+      "redstoneEngineers": 2,
+      "artist": 1,
+      "total": 6
+    },
+    "control": {
+      "grandOrchestrator": 1,
+      "progressReporter": 1,
+      "emergencyResponse": 1,
+      "total": 3
+    },
+    "cameras": {
+      "cinematicDirector": 1,
+      "cameraOperators": 9,
+      "total": 10
+    }
+  },
+  
+  "maxConcurrentBots": 100,
+  "totalSystemBots": 114,
+  
+  "performance": {
+    "tickRate": 20,
+    "pathfindingTimeout": 5000,
+    "maxMemoryPerBot": "250MB",
+    "totalMemoryLimit": "28GB",
+    "cpuCoresUsed": 14,
+    "useGPUPathfinding": false,
+    "parallelBuildings": 6,
+    "collisionCheckInterval": 200,
+    "taskQueueSize": 1000
+  },
+  
+  "coordination": {
+    "zoneSystem": true,
+    "zoneGridSize": {
+      "width": 10,
+      "height": 10
+    },
+    "maxBotsPerZone": 5,
+    "collisionAvoidance": "advanced",
+    "taskQueue": "priority_based",
+    "loadBalancing": "dynamic",
+    "pathReservationSystem": true
+  },
+  
+  "cameras": {
+    "activeCameras": 9,
+    "recordingQuality": "high",
+    "resolution": "1920x1080",
+    "fps": 60,
+    "cinematicModes": [
+      "aerial_drone",
+      "tracking_cam",
+      "timelapse_cam",
+      "closeup_specialist",
+      "pov_cam",
+      "crane_cam",
+      "dolly_cam",
+      "steadicam",
+      "night_lighting_cam"
+    ]
+  },
+  
+  "buildTimeEstimates": {
+    "smallCastle_25k_blocks": {
+      "50bots": "2 hours",
+      "100bots": "1 hour",
+      "speedup": "2x"
+    },
+    "largeCastle_100k_blocks": {
+      "50bots": "6 hours",
+      "100bots": "3 hours",
+      "speedup": "2x"
+    },
+    "city_300k_blocks": {
+      "50bots": "18 hours",
+      "100bots": "9 hours",
+      "speedup": "2x"
+    },
+    "megacity_1m_blocks": {
+      "50bots": "60 hours (2.5 days)",
+      "100bots": "30 hours (1.25 days)",
+      "speedup": "2x"
+    },
+    "manhattan_replica": {
+      "50bots": "5 days",
+      "100bots": "2.5 days",
+      "speedup": "2x"
+    }
+  },
+  
+  "viralHooks": {
+    "enabled": true,
+    "templates": [
+      "I hired 100 BOTS to build this city... 🤖",
+      "What happens when 100 bots work together? 🔥",
+      "100 BOTS vs ONE CITY... who wins? 😱",
+      "This is what 100 bots can do... ⚡",
+      "Double the bots = Double the chaos! 🚀",
+      "100 BOTS BUILDING AT ONCE 🤖🔥",
+      "WATCH 100 BOTS BUILD THIS IN 3 HOURS 🔥"
+    ]
+  },
+  
+  "dramaMoments": {
+    "hundredBotsWorking": {
+      "detect": "100 bots visible working simultaneously",
+      "hook": "100 BOTS BUILDING AT ONCE 🤖🔥",
+      "priority": 10,
+      "viralScore": 10
+    },
+    "massiveCoordination": {
+      "detect": "100 bots perfectly coordinated",
+      "hook": "PERFECT COORDINATION 😱",
+      "priority": 9,
+      "viralScore": 9
+    },
+    "resourceArmy": {
+      "detect": "40+ bots gathering resources",
+      "hook": "RESOURCE ARMY IN ACTION ⚡",
+      "priority": 8,
+      "viralScore": 8
+    },
+    "constructionTeam": {
+      "detect": "30 bots building walls simultaneously",
+      "hook": "30 BOTS BUILDING WALLS 🧱",
+      "priority": 8,
+      "viralScore": 8
+    }
+  }
+}

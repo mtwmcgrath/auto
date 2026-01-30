@@ -1,0 +1,153 @@
+{
+  "clips": [
+    {
+      "clipNumber": 1,
+      "startTime": 9,
+      "endTime": 20,
+      "duration": 10,
+      "hook": "100 BOTS BUILDING AT ONCE 🤖🔥",
+      "effects": [
+        {
+          "type": "zoom_in",
+          "strength": 0.2
+        },
+        {
+          "type": "text_overlay",
+          "text": "100 BOTS BUILDING AT ONCE 🤖🔥",
+          "position": "top",
+          "fontSize": "large",
+          "animation": "fade_in"
+        },
+        {
+          "type": "slow_motion",
+          "speed": 0.7
+        }
+      ],
+      "music": {
+        "tempo": "fast",
+        "suggestedTrack": "High Energy Electronic",
+        "volume": 0.6
+      },
+      "viralScore": 10
+    },
+    {
+      "clipNumber": 2,
+      "startTime": 1799,
+      "endTime": 1815,
+      "duration": 15,
+      "hook": "THIS IS WHAT 100 BOTS BUILT 🌆",
+      "effects": [
+        {
+          "type": "zoom_in",
+          "strength": 0.2
+        },
+        {
+          "type": "text_overlay",
+          "text": "THIS IS WHAT 100 BOTS BUILT 🌆",
+          "position": "top",
+          "fontSize": "large",
+          "animation": "fade_in"
+        },
+        {
+          "type": "slow_motion",
+          "speed": 0.7
+        }
+      ],
+      "music": {
+        "tempo": "fast",
+        "suggestedTrack": "High Energy Electronic",
+        "volume": 0.6
+      },
+      "viralScore": 10
+    },
+    {
+      "clipNumber": 3,
+      "startTime": 119,
+      "endTime": 132,
+      "duration": 12,
+      "hook": "RESOURCE ARMY IN ACTION ⚡",
+      "effects": [
+        {
+          "type": "zoom_in",
+          "strength": 0.2
+        },
+        {
+          "type": "text_overlay",
+          "text": "RESOURCE ARMY IN ACTION ⚡",
+          "position": "top",
+          "fontSize": "large",
+          "animation": "fade_in"
+        }
+      ],
+      "music": {
+        "tempo": "fast",
+        "suggestedTrack": "Tech Montage Beat",
+        "volume": 0.6
+      },
+      "viralScore": 8
+    },
+    {
+      "clipNumber": 4,
+      "startTime": 299,
+      "endTime": 315,
+      "duration": 15,
+      "hook": "30 BOTS BUILDING WALLS 🧱",
+      "effects": [
+        {
+          "type": "zoom_in",
+          "strength": 0.2
+        },
+        {
+          "type": "motion_blur",
+          "amount": 0.1
+        },
+        {
+          "type": "text_overlay",
+          "text": "30 BOTS BUILDING WALLS 🧱",
+          "position": "top",
+          "fontSize": "large",
+          "animation": "fade_in"
+        }
+      ],
+      "music": {
+        "tempo": "fast",
+        "suggestedTrack": "Epic Cinematic Build",
+        "volume": 0.6
+      },
+      "viralScore": 8
+    },
+    {
+      "clipNumber": 5,
+      "startTime": 599,
+      "endTime": 608,
+      "duration": 8,
+      "hook": "FIRST BUILDING COMPLETE! 🏗️",
+      "effects": [
+        {
+          "type": "motion_blur",
+          "amount": 0.1
+        },
+        {
+          "type": "text_overlay",
+          "text": "FIRST BUILDING COMPLETE! 🏗️",
+          "position": "top",
+          "fontSize": "large",
+          "animation": "fade_in"
+        }
+      ],
+      "music": {
+        "tempo": "fast",
+        "suggestedTrack": "Epic Cinematic Build",
+        "volume": 0.6
+      },
+      "viralScore": 7
+    }
+  ],
+  "totalClips": 5,
+  "estimatedViralPotential": 10,
+  "recommendations": [
+    "Use trending audio for maximum reach",
+    "Post during peak hours (6-9 PM)",
+    "Include #100bots #minecraft #automation hashtags"
+  ]
+}
