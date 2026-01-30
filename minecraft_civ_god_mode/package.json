@@ -1,0 +1,24 @@
+{
+  "name": "9woke-minecraft-real",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "bot:civ": "node bots/civilization_bot.js",
+    "bot:director": "node bots/director_bot.js",
+    "story": "node bots/story_runner_bot.js",
+    "series": "node bots/series_runner_bot.js",
+    "9woke": "node bots/series_runner_bot.js",
+    "bot:treechop": "node bots/tree_chopper_bot.js",
+    "bot:citybuilder": "node bots/city_builder_bot.js",
+    "bot:resource": "node bots/resource_manager_bot.js",
+    "test:city": "node scripts/test_city_building.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mineflayer": "^4.22.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-collectblock": "^1.5.0",
+    "vec3": "^0.1.10"
+  }
+}
