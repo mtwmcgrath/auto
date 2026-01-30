@@ -1,0 +1,71 @@
+{
+  "sessionId": "session_1769500375601",
+  "startedAt": 1769500375601,
+  "markers": [
+    {
+      "t_ms": 24,
+      "label": "REC_START",
+      "meta": {
+        "turn": 1,
+        "type": "CITY_FOUNDED"
+      }
+    },
+    {
+      "t_ms": 25,
+      "label": "CITY_FOUNDED",
+      "meta": {
+        "turn": 1,
+        "year": 1,
+        "kind": "BUILD"
+      }
+    },
+    {
+      "t_ms": 11538,
+      "label": "KING_CROWNED",
+      "meta": {
+        "turn": 2,
+        "year": 5,
+        "kind": "POLITICS"
+      }
+    },
+    {
+      "t_ms": 18045,
+      "label": "WAR_DECLARED",
+      "meta": {
+        "turn": 3,
+        "year": 20,
+        "kind": "WAR"
+      }
+    },
+    {
+      "t_ms": 18047,
+      "label": "HIGHLIGHT",
+      "meta": {
+        "turn": 3,
+        "label": "WAR_DECLARED"
+      }
+    },
+    {
+      "t_ms": 33562,
+      "label": "BATTLE_VICTORY",
+      "meta": {
+        "turn": 4,
+        "year": 30,
+        "kind": "WAR"
+      }
+    },
+    {
+      "t_ms": 33564,
+      "label": "HIGHLIGHT",
+      "meta": {
+        "turn": 4,
+        "label": "BATTLE_VICTORY"
+      }
+    },
+    {
+      "t_ms": 49069,
+      "label": "REC_STOP",
+      "meta": {}
+    }
+  ]
+}
