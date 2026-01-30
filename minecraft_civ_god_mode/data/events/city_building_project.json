@@ -1,0 +1,197 @@
+{
+  "name": "9woke City Building Project - MrBeast Style",
+  "description": "Automated tree chopping and massive city construction for 9woke character",
+  "version": "1.0.0",
+  "phases": [
+    {
+      "name": "Resource Gathering",
+      "description": "Thu thập tài nguyên ban đầu",
+      "duration": "30 minutes",
+      "tasks": [
+        {
+          "id": "chop_trees",
+          "type": "resource",
+          "description": "Chặt cây để lấy gỗ",
+          "target": 500,
+          "bot": "tree_chopper"
+        },
+        {
+          "id": "collect_stone",
+          "type": "resource",
+          "description": "Thu thập đá",
+          "target": 1000,
+          "bot": "resource_manager"
+        },
+        {
+          "id": "craft_tools",
+          "type": "crafting",
+          "description": "Craft công cụ cần thiết",
+          "items": ["wooden_axe", "stone_pickaxe", "stone_shovel"],
+          "bot": "resource_manager"
+        }
+      ]
+    },
+    {
+      "name": "Foundation",
+      "description": "Chuẩn bị nền móng và hạ tầng",
+      "duration": "20 minutes",
+      "tasks": [
+        {
+          "id": "clear_area",
+          "type": "terrain",
+          "description": "Dọn sạch khu vực xây dựng",
+          "area": "100x100",
+          "bot": "civilization"
+        },
+        {
+          "id": "build_roads",
+          "type": "construction",
+          "description": "Xây dựng hệ thống đường",
+          "pattern": "grid",
+          "bot": "city_builder"
+        },
+        {
+          "id": "mark_plots",
+          "type": "planning",
+          "description": "Đánh dấu các khu đất xây dựng",
+          "bot": "city_builder"
+        }
+      ]
+    },
+    {
+      "name": "Construction",
+      "description": "Xây dựng các công trình chính",
+      "duration": "60 minutes",
+      "tasks": [
+        {
+          "id": "build_houses",
+          "type": "construction",
+          "description": "Xây nhà ở",
+          "count": 10,
+          "style": "modern",
+          "bot": "city_builder"
+        },
+        {
+          "id": "build_plaza",
+          "type": "construction",
+          "description": "Xây quảng trường trung tâm",
+          "size": "20x20",
+          "bot": "city_builder"
+        },
+        {
+          "id": "build_farms",
+          "type": "construction",
+          "description": "Xây trang trại",
+          "count": 3,
+          "size": "15x15",
+          "bot": "city_builder"
+        }
+      ]
+    },
+    {
+      "name": "Expansion",
+      "description": "Mở rộng và hoàn thiện thành phố",
+      "duration": "40 minutes",
+      "tasks": [
+        {
+          "id": "build_skyscrapers",
+          "type": "construction",
+          "description": "Xây tòa nhà cao tầng",
+          "count": 2,
+          "height": 40,
+          "bot": "city_builder"
+        },
+        {
+          "id": "add_decorations",
+          "type": "decoration",
+          "description": "Thêm trang trí",
+          "items": ["trees", "fountains", "statues"],
+          "bot": "city_builder"
+        },
+        {
+          "id": "lighting",
+          "type": "utility",
+          "description": "Thêm hệ thống chiếu sáng",
+          "item": "torch",
+          "bot": "civilization"
+        }
+      ]
+    }
+  ],
+  "city_blueprint": {
+    "size": "100x100",
+    "style": "modern_mrbeast",
+    "theme": "futuristic_city",
+    "buildings": [
+      {
+        "type": "house",
+        "count": 10,
+        "size": { "width": 8, "depth": 8, "height": 5 },
+        "material": "oak_planks"
+      },
+      {
+        "type": "skyscraper",
+        "count": 2,
+        "size": { "width": 12, "depth": 12, "height": 40 },
+        "material": "stone_bricks"
+      },
+      {
+        "type": "plaza",
+        "count": 1,
+        "size": { "width": 20, "depth": 20, "height": 1 },
+        "material": "stone_bricks"
+      },
+      {
+        "type": "farm",
+        "count": 3,
+        "size": { "width": 15, "depth": 15, "height": 1 },
+        "material": "farmland"
+      },
+      {
+        "type": "shop",
+        "count": 5,
+        "size": { "width": 6, "depth": 6, "height": 4 },
+        "material": "brick"
+      }
+    ],
+    "infrastructure": {
+      "roads": {
+        "pattern": "grid",
+        "spacing": 15,
+        "width": 5,
+        "material": "stone"
+      },
+      "lighting": {
+        "type": "torch",
+        "spacing": 10
+      }
+    }
+  },
+  "resource_requirements": {
+    "oak_planks": 5000,
+    "stone": 8000,
+    "stone_bricks": 10000,
+    "glass": 2000,
+    "brick": 1500,
+    "torch": 500,
+    "farmland": 675
+  },
+  "timeline": {
+    "estimated_duration": "2.5 hours",
+    "phases_count": 4,
+    "checkpoints": [
+      "resources_gathered",
+      "foundation_complete",
+      "buildings_50_percent",
+      "city_complete"
+    ]
+  },
+  "settings": {
+    "auto_replant_trees": true,
+    "sustainable_mode": true,
+    "build_speed": "normal",
+    "enable_pause_resume": true,
+    "save_progress": true,
+    "log_level": "detailed"
+  }
+}
