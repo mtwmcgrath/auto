@@ -11,12 +11,16 @@
     "series": "node bots/series_runner_bot.js",
     "9woke": "node bots/series_runner_bot.js",
     "orchestrator": "node bots/control/grand_orchestrator_bot.js",
+    "progress-reporter": "node bots/control/progress_reporter_bot.js",
     "story-analyzer": "node bots/ai/story_analyzer_bot.js",
     "lumberjack-leader": "node bots/resource/lumberjack_squad_leader.js",
     "lumberjack-worker": "node bots/resource/lumberjack_worker_01.js",
+    "foundation-builder": "node bots/construction/foundation_builder_bot.js",
     "cinematic-director": "node bots/camera/cinematic_director_bot.js",
+    "camera-01": "node bots/camera/camera_bot_01.js",
     "auto-build-and-record": "node src/main_workflow.js",
-    "workflow": "node src/main_workflow.js"
+    "workflow": "node src/main_workflow.js",
+    "cli": "node cli.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
