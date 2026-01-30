@@ -8,7 +8,12 @@
     "bot:director": "node bots/director_bot.js",
     "story": "node bots/story_runner_bot.js",
     "series": "node bots/series_runner_bot.js",
-    "9woke": "node bots/series_runner_bot.js"
+    "9woke": "node bots/series_runner_bot.js",
+    "bot:army": "node bots/control/grand_orchestrator_bot.js",
+    "names:list": "node src/cli_name_manager.js list",
+    "names:regenerate": "node src/cli_name_manager.js regenerate",
+    "names:stats": "node src/cli_name_manager.js stats",
+    "names:help": "node src/cli_name_manager.js help"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
