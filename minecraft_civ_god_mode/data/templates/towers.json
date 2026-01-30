@@ -1,0 +1,66 @@
+{
+  "towers": [
+    {
+      "id": "wizard_tower",
+      "name": "Wizard Tower",
+      "theme": "fantasy",
+      "size": { "base": 9, "height": 40 },
+      "blocks": {
+        "walls": "purpur_block",
+        "floor": "end_stone_bricks",
+        "stairs": "purpur_stairs",
+        "accent": "sea_lantern",
+        "roof": "purpur_block"
+      },
+      "features": ["spiral_stairs", "magic_chambers", "observatory", "glowing_top"],
+      "levels": [
+        { "floor": 0, "type": "entrance", "height": 4 },
+        { "floor": 1, "type": "storage", "height": 4 },
+        { "floor": 2, "type": "library", "height": 5 },
+        { "floor": 3, "type": "workshop", "height": 5 },
+        { "floor": 4, "type": "bedroom", "height": 4 },
+        { "floor": 5, "type": "observatory", "height": 6 }
+      ]
+    },
+    {
+      "id": "watch_tower",
+      "name": "Watch Tower",
+      "theme": "medieval",
+      "size": { "base": 7, "height": 25 },
+      "blocks": {
+        "walls": "stone_bricks",
+        "floor": "cobblestone",
+        "stairs": "stone_brick_stairs",
+        "accent": "torch",
+        "roof": "stone_brick_stairs"
+      },
+      "features": ["arrow_slits", "guard_platform", "ladder"],
+      "levels": [
+        { "floor": 0, "type": "entrance", "height": 4 },
+        { "floor": 1, "type": "guard_room", "height": 4 },
+        { "floor": 2, "type": "storage", "height": 4 },
+        { "floor": 3, "type": "lookout", "height": 6 }
+      ]
+    },
+    {
+      "id": "bell_tower",
+      "name": "Bell Tower",
+      "theme": "medieval",
+      "size": { "base": 8, "height": 30 },
+      "blocks": {
+        "walls": "stone_bricks",
+        "floor": "stone",
+        "stairs": "stone_brick_stairs",
+        "accent": "iron_bars",
+        "roof": "stone_brick_stairs"
+      },
+      "features": ["bell", "clock", "open_belfry"],
+      "levels": [
+        { "floor": 0, "type": "entrance", "height": 5 },
+        { "floor": 1, "type": "stairs", "height": 8 },
+        { "floor": 2, "type": "bell_chamber", "height": 8 },
+        { "floor": 3, "type": "roof", "height": 4 }
+      ]
+    }
+  ]
+}
