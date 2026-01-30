@@ -1,0 +1,10 @@
+const fs = require('fs')
+const { paths } = require('./config')
+const log = require('./logger')
+const { latestFile } = require('./utils')
+log.info('EVENTS_DIR =', paths.eventsDir)
+if (!fs.existsSync(paths.eventsDir)) { log.err('EVENTS_DIR does not exist'); process.exit(1) }
+const p = latestFile(paths.eventsDir, /^civ_sim_.*\.json$/)
+if (p) log.ok('Latest events:', p)
+else log.warn('No civ_sim_*.json yet.')
+log.ok('Doctor OK')
