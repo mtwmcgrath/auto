@@ -13,7 +13,8 @@
     "names:list": "node src/cli_name_manager.js list",
     "names:regenerate": "node src/cli_name_manager.js regenerate",
     "names:stats": "node src/cli_name_manager.js stats",
-    "names:help": "node src/cli_name_manager.js help"
+    "names:help": "node src/cli_name_manager.js help",
+    "test:names": "node test/test_bot_name_generator.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
