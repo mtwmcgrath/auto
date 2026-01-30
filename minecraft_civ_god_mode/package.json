@@ -19,7 +19,6 @@
     "mineflayer": "^4.22.0",
     "mineflayer-pathfinder": "^2.4.5",
     "mineflayer-collectblock": "^1.5.0",
-    "mineflayer-scaffold": "^1.0.3",
     "vec3": "^0.1.10"
   }
 }

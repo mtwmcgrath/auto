@@ -1,0 +1,36 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Runtime data
+runtime/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Outputs
+outputs/
+recordings/
+
+# Markers
+markers/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
