@@ -1,0 +1,78 @@
+{
+  "name": "ep_001_tokyo",
+  "events": [
+    {
+      "type": "INTRO",
+      "actions": [
+        {
+          "type": "CHAT",
+          "message": "EP1: 9WOKE bắt đầu xây Tokyo từ số 0!"
+        },
+        {
+          "type": "CIV_CMD",
+          "action": "MOVE",
+          "x": 0,
+          "y": 70,
+          "z": 0,
+          "range": 2
+        },
+        {
+          "type": "WAIT",
+          "ms": 800
+        }
+      ]
+    },
+    {
+      "type": "PREP",
+      "actions": [
+        {
+          "type": "CHAT",
+          "message": "(Gợi ý) OP 9woke hoặc DirectorBot để /give hoạt động."
+        },
+        {
+          "type": "CHAT",
+          "message": "/give 9woke iron_axe 1"
+        },
+        {
+          "type": "CHAT",
+          "message": "/give 9woke oak_planks 512"
+        },
+        {
+          "type": "WAIT",
+          "ms": 1200
+        }
+      ]
+    },
+    {
+      "type": "CHOP",
+      "actions": [
+        {
+          "type": "CIV_CMD",
+          "action": "CHOP",
+          "radius": 18,
+          "count": 10
+        },
+        {
+          "type": "WAIT",
+          "ms": 1000
+        }
+      ]
+    },
+    {
+      "type": "BUILD",
+      "actions": [
+        {
+          "type": "CIV_CMD",
+          "action": "BUILD",
+          "x": 6,
+          "y": 70,
+          "z": 6
+        },
+        {
+          "type": "WAIT",
+          "ms": 1000
+        }
+      ]
+    }
+  ]
+}

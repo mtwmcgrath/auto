@@ -1,0 +1,30 @@
+[
+  {
+    "turn": 1,
+    "year": 1,
+    "type": "CITY_FOUNDED",
+    "description": "The first city is founded by pioneers.",
+    "severity": 7
+  },
+  {
+    "turn": 2,
+    "year": 5,
+    "type": "KING_CROWNED",
+    "description": "A king rises to rule the civilization.",
+    "severity": 6
+  },
+  {
+    "turn": 3,
+    "year": 20,
+    "type": "WAR_DECLARED",
+    "description": "A war begins between two civilizations.",
+    "severity": 9
+  },
+  {
+    "turn": 4,
+    "year": 30,
+    "type": "BATTLE_VICTORY",
+    "description": "The army wins a great battle.",
+    "severity": 8
+  }
+]
