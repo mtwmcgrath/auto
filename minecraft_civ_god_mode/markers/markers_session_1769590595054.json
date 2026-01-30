@@ -1,0 +1,45 @@
+{
+  "sessionId": "session_1769590595054",
+  "startedAt": 1769590595054,
+  "markers": [
+    {
+      "t_ms": 574,
+      "label": "REC_START",
+      "meta": {
+        "turn": 1,
+        "type": "CITY_FOUNDED"
+      }
+    },
+    {
+      "t_ms": 574,
+      "label": "CITY_FOUNDED",
+      "meta": {
+        "turn": 1,
+        "year": 1,
+        "category": "BUILD"
+      }
+    },
+    {
+      "t_ms": 575,
+      "label": "WAR_DECLARED",
+      "meta": {
+        "turn": 10,
+        "year": 50,
+        "category": "WAR"
+      }
+    },
+    {
+      "t_ms": 575,
+      "label": "HIGHLIGHT",
+      "meta": {
+        "turn": 10,
+        "label": "WAR_DECLARED"
+      }
+    },
+    {
+      "t_ms": 576,
+      "label": "REC_STOP",
+      "meta": {}
+    }
+  ]
+}

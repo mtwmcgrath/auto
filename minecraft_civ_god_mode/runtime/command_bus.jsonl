@@ -1,0 +1,15 @@
+{"t":1769505642680,"kind":"SESSION","sessionId":"session_1769505642675","action":"START"}
+{"t":1769505642707,"kind":"OBS","sessionId":"session_1769505642675","action":"REC_START","turn":1}
+{"t":1769505642707,"kind":"CIV","sessionId":"session_1769505642675","action":"NARRATE","turn":1,"year":1,"type":"CITY_FOUNDED","text":"The first city is founded by pioneers."}
+{"t":1769505642708,"kind":"DIRECTOR","sessionId":"session_1769505642675","action":"BUILD_CITY","turn":1,"year":1,"type":"CITY_FOUNDED","intensity":7}
+{"t":1769505642709,"kind":"CAM","sessionId":"session_1769505642675","action":"PLAY_SHOTS","turn":1,"target":"DirectorBot","shots":[["WIDE_ORBIT",6],["LOW_DOLLY_IN",4]]}
+{"t":1769505654232,"kind":"CIV","sessionId":"session_1769505642675","action":"NARRATE","turn":2,"year":5,"type":"KING_CROWNED","text":"A king rises to rule the civilization."}
+{"t":1769505654233,"kind":"DIRECTOR","sessionId":"session_1769505642675","action":"SPAWN_CITIZENS","turn":2,"year":5,"type":"KING_CROWNED","intensity":6}
+{"t":1769505654234,"kind":"CAM","sessionId":"session_1769505642675","action":"PLAY_SHOTS","turn":2,"target":"DirectorBot","shots":[["WIDE_ORBIT",5]]}
+{"t":1769505660773,"kind":"CIV","sessionId":"session_1769505642675","action":"NARRATE","turn":3,"year":20,"type":"WAR_DECLARED","text":"A war begins between two civilizations."}
+{"t":1769505660774,"kind":"DIRECTOR","sessionId":"session_1769505642675","action":"WAR_BATTLE","turn":3,"year":20,"type":"WAR_DECLARED","intensity":9}
+{"t":1769505660775,"kind":"CAM","sessionId":"session_1769505642675","action":"PLAY_SHOTS","turn":3,"target":"DirectorBot","shots":[["CRANE_DOWN",5],["FOLLOW",6],["SHAKE_ZOOM",3]]}
+{"t":1769505676286,"kind":"CIV","sessionId":"session_1769505642675","action":"NARRATE","turn":4,"year":30,"type":"BATTLE_VICTORY","text":"The army wins a great battle."}
+{"t":1769505676287,"kind":"DIRECTOR","sessionId":"session_1769505642675","action":"WAR_BATTLE","turn":4,"year":30,"type":"BATTLE_VICTORY","intensity":8}
+{"t":1769505676288,"kind":"CAM","sessionId":"session_1769505642675","action":"PLAY_SHOTS","turn":4,"target":"DirectorBot","shots":[["CRANE_DOWN",5],["FOLLOW",6],["SHAKE_ZOOM",3]]}
+{"t":1769505691797,"kind":"SESSION","sessionId":"session_1769505642675","action":"STOP"}
