@@ -1,0 +1,90 @@
+{
+  "houses": [
+    {
+      "id": "simple_cottage",
+      "name": "Simple Cottage",
+      "theme": "medieval",
+      "size": { "width": 7, "depth": 7, "height": 4 },
+      "blocks": {
+        "walls": "oak_planks",
+        "roof": "oak_stairs",
+        "floor": "oak_planks",
+        "door": "oak_door",
+        "window": "glass_pane"
+      },
+      "features": ["door", "windows", "chimney"]
+    },
+    {
+      "id": "stone_house",
+      "name": "Stone House",
+      "theme": "medieval",
+      "size": { "width": 9, "depth": 9, "height": 5 },
+      "blocks": {
+        "walls": "stone_bricks",
+        "roof": "stone_brick_stairs",
+        "floor": "cobblestone",
+        "door": "oak_door",
+        "window": "glass_pane"
+      },
+      "features": ["door", "windows", "balcony"]
+    },
+    {
+      "id": "modern_home",
+      "name": "Modern Home",
+      "theme": "modern",
+      "size": { "width": 12, "depth": 10, "height": 6 },
+      "blocks": {
+        "walls": "white_concrete",
+        "roof": "smooth_quartz",
+        "floor": "light_gray_concrete",
+        "door": "iron_door",
+        "window": "glass"
+      },
+      "features": ["door", "large_windows", "flat_roof", "balcony"]
+    },
+    {
+      "id": "fantasy_cottage",
+      "name": "Fantasy Cottage",
+      "theme": "fantasy",
+      "size": { "width": 8, "depth": 8, "height": 5 },
+      "blocks": {
+        "walls": "purpur_block",
+        "roof": "purpur_stairs",
+        "floor": "end_stone_bricks",
+        "door": "dark_oak_door",
+        "window": "glass"
+      },
+      "features": ["door", "windows", "glowing_accents"]
+    }
+  ],
+  "large_buildings": [
+    {
+      "id": "town_hall",
+      "name": "Town Hall",
+      "theme": "medieval",
+      "size": { "width": 20, "depth": 15, "height": 8 },
+      "blocks": {
+        "walls": "stone_bricks",
+        "roof": "dark_oak_stairs",
+        "floor": "polished_andesite",
+        "door": "oak_door",
+        "window": "glass_pane"
+      },
+      "features": ["main_entrance", "tower", "meeting_hall"]
+    },
+    {
+      "id": "market_hall",
+      "name": "Market Hall",
+      "theme": "medieval",
+      "size": { "width": 18, "depth": 12, "height": 6 },
+      "blocks": {
+        "walls": "oak_planks",
+        "roof": "oak_stairs",
+        "floor": "cobblestone",
+        "door": "oak_door",
+        "window": "glass_pane"
+      },
+      "features": ["open_floor", "stalls", "high_ceiling"]
+    }
+  ]
+}

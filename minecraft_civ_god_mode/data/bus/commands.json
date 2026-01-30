@@ -1,0 +1,10 @@
+{
+  "action": "BUILD",
+  "params": {
+    "type": "CIV_CMD",
+    "action": "BUILD",
+    "x": 6,
+    "y": 70,
+    "z": 6
+  }
+}

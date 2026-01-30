@@ -1,0 +1,30 @@
+{
+  "name": "9woke-minecraft-real",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "bot:civ": "node bots/civilization_bot.js",
+    "bot:director": "node bots/director_bot.js",
+    "story": "node bots/story_runner_bot.js",
+    "series": "node bots/series_runner_bot.js",
+    "9woke": "node bots/series_runner_bot.js",
+    "orchestrator": "node bots/layer6_coordination/grand_orchestrator_bot.js",
+    "mega": "node src/command_center.js",
+    "launch": "node scripts/launch_bots.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mineflayer": "^4.22.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-collectblock": "^1.5.0",
+    "mineflayer-scaffold": "^1.0.0",
+    "mineflayer-pvp": "^1.1.0",
+    "mineflayer-armor-manager": "^1.1.0",
+    "vec3": "^0.1.10",
+    "prismarine-viewer": "^1.20.0",
+    "sharp": "^0.32.0",
+    "natural": "^5.2.0",
+    "compromise": "^14.0.0"
+  }
+}
