@@ -1,0 +1,721 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-01-30T10:20:28.951Z",
+  "total": 100,
+  "bots": [
+    {
+      "name": "Stella",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Bobby",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Stephen",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Melanie",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Addison",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Penelope",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Jerry",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Thomas",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Ruby",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Bruce",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Terry",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Allison",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Hailey",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Naomi",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Hannah",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Robert",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Carl",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Patrick",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Austin",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Mia",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "lumberjack"
+    },
+    {
+      "name": "Claire",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Jesse",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Walter",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Daniel",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Gerald",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Chloe",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Sofia",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Jason",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Camila",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Kennedy",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Ava",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Emily",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Larry",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Joseph",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Olivia",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Hunter",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Ariana",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Everly",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Roger",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Leah",
+      "region": "english",
+      "gender": "random",
+      "team": "resource",
+      "role": "miner"
+    },
+    {
+      "name": "Van",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "farmers"
+    },
+    {
+      "name": "Khoa",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "farmers"
+    },
+    {
+      "name": "Ngoc",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "farmers"
+    },
+    {
+      "name": "Thao",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "fishermen"
+    },
+    {
+      "name": "Linh",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "fishermen"
+    },
+    {
+      "name": "Xuan",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "fishermen"
+    },
+    {
+      "name": "Phuong",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Kim",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Thang",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Vinh",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Hieu",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Lam",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Duc",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Tai",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Mai",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Ly",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "wall_builders"
+    },
+    {
+      "name": "Long",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "foundation_builders"
+    },
+    {
+      "name": "Trinh",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "foundation_builders"
+    },
+    {
+      "name": "Bao",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "roof_builders"
+    },
+    {
+      "name": "Trung",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "roof_builders"
+    },
+    {
+      "name": "Vi",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "interior_designers"
+    },
+    {
+      "name": "Yen",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "interior_designers"
+    },
+    {
+      "name": "Trang",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "interior_designers"
+    },
+    {
+      "name": "Dang",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "road_pavers"
+    },
+    {
+      "name": "Cuong",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "road_pavers"
+    },
+    {
+      "name": "Hien",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "landscapers"
+    },
+    {
+      "name": "Dat",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "landscapers"
+    },
+    {
+      "name": "Hang",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "skyscraper_specialists"
+    },
+    {
+      "name": "Tu",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "skyscraper_specialists"
+    },
+    {
+      "name": "Huong",
+      "region": "vietnamese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Cheng",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Xiong",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Gang",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Juan",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Zhen",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Xia",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Yong",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Lei",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "detail"
+    },
+    {
+      "name": "Jing",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Liu",
+      "region": "chinese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Saki",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Sakura",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Riku",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Nana",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Yuki",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Ryota",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Kana",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Takumi",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "couriers"
+    },
+    {
+      "name": "Akari",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "inventory_managers"
+    },
+    {
+      "name": "Sota",
+      "region": "japanese",
+      "gender": "random",
+      "team": "general",
+      "role": "inventory_managers"
+    },
+    {
+      "name": "Kyung",
+      "region": "korean",
+      "gender": "random",
+      "team": "general",
+      "role": "tool_smiths"
+    },
+    {
+      "name": "Joon",
+      "region": "korean",
+      "gender": "random",
+      "team": "general",
+      "role": "tool_smiths"
+    },
+    {
+      "name": "Dong",
+      "region": "korean",
+      "gender": "random",
+      "team": "support",
+      "role": "security"
+    },
+    {
+      "name": "Jung",
+      "region": "korean",
+      "gender": "random",
+      "team": "support",
+      "role": "security"
+    },
+    {
+      "name": "Jun",
+      "region": "korean",
+      "gender": "random",
+      "team": "support",
+      "role": "maintenance"
+    },
+    {
+      "name": "Quinn",
+      "region": "unique",
+      "gender": "random",
+      "team": "support",
+      "role": "maintenance"
+    },
+    {
+      "name": "Raven",
+      "region": "unique",
+      "gender": "neutral",
+      "team": "support",
+      "role": "maintenance"
+    },
+    {
+      "name": "Harper",
+      "region": "unique",
+      "gender": "random",
+      "team": "general",
+      "role": "statue_builders"
+    },
+    {
+      "name": "Blake",
+      "region": "unique",
+      "gender": "random",
+      "team": "general",
+      "role": "statue_builders"
+    },
+    {
+      "name": "Ash",
+      "region": "unique",
+      "gender": "neutral",
+      "team": "artists",
+      "role": "sign_writer"
+    }
+  ],
+  "distribution": {
+    "english": 40,
+    "vietnamese": 30,
+    "chinese": 10,
+    "japanese": 10,
+    "korean": 5,
+    "unique": 5
+  },
+  "teams": {
+    "resource": 40,
+    "general": 54,
+    "support": 5,
+    "artists": 1
+  }
+}

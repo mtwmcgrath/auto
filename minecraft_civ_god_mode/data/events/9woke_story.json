@@ -1,0 +1,50 @@
+{
+  "name": "9woke_world_cities",
+  "events": [
+    {
+      "turn": 1,
+      "year": 1,
+      "type": "TOKYO_START",
+      "category": "BUILD",
+      "vo": "9WOKE xuất hiện giữa khu rừng hoang vu. Mục tiêu: xây Tokyo từ số 0.",
+      "actions": [
+        {"type": "MOVE", "x": 0, "y": 70, "z": 0},
+        {"type": "CHAT", "message": "EP1: 9WOKE xây TOKYO từ số 0!"}
+      ]
+    },
+    {
+      "turn": 2,
+      "year": 1,
+      "type": "CHOP_TREES",
+      "category": "BUILD",
+      "vo": "9WOKE tự đi chặt cây thật và nhặt gỗ để lấy vật liệu.",
+      "actions": [
+        {"type": "GIVE", "item": "iron_axe", "count": 1},
+        {"type": "CIV_CMD", "action": "CHOP", "radius": 18, "count": 12}
+      ]
+    },
+    {
+      "turn": 3,
+      "year": 2,
+      "type": "FIRST_HOUSE",
+      "category": "BUILD",
+      "vo": "Từ số gỗ vừa kiếm được, 9WOKE đặt block thật để dựng căn nhà đầu tiên.",
+      "actions": [
+        {"type": "GIVE", "item": "oak_planks", "count": 512},
+        {"type": "CIV_CMD", "action": "BUILD", "x": 6, "y": 70, "z": 6, "block": "oak_planks"},
+        {"type": "CHAT", "message": "Căn nhà đầu tiên hoàn thành!"}
+      ]
+    },
+    {
+      "turn": 4,
+      "year": 50,
+      "type": "WAR_DECLARED",
+      "category": "WAR",
+      "vo": "Kẻ địch xuất hiện! Chuẩn bị chiến đấu!",
+      "actions": [
+        {"type": "CHAT", "message": "TO ARMS!"},
+        {"type": "MOVE", "x": 100, "y": 64, "z": 100}
+      ]
+    }
+  ]
+}

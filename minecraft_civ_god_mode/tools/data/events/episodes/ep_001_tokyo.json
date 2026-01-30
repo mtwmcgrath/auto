@@ -1,0 +1,72 @@
+{
+  "name": "ep_001_tokyo",
+  "city": "Tokyo",
+  "origin": {"x": 0, "y": 70, "z": 0},
+  "events": [
+    {
+      "turn": 1,
+      "year": 1,
+      "type": "FOREST_START",
+      "category": "BUILD",
+      "vo": "9WOKE xuất hiện giữa rừng hoang vu. Hôm nay: xây Tokyo từ số 0.",
+      "actions": [
+        {"type":"MOVE","x":0,"y":70,"z":0},
+        {"type":"CAM","mode":"orbit","r":16,"h":7,"sec":8},
+        {"type":"NARRATION","text":"9WOKE xuất hiện giữa rừng hoang vu. Hôm nay: xây Tokyo từ số 0."}
+      ]
+    },
+    {
+      "turn": 2,
+      "year": 1,
+      "type": "CHOP_TREES",
+      "category": "BUILD",
+      "vo": "Bắt đầu bằng gỗ: chặt cây thông minh theo cụm để lấy vật liệu.",
+      "actions": [
+        {"type":"CHOP_TREE_CLUSTER","radius":18,"count":14},
+        {"type":"MARK","label":"HIGHLIGHT"},
+        {"type":"CAM","mode":"follow","target":"9woke","sec":10}
+      ]
+    },
+    {
+      "turn": 3,
+      "year": 5,
+      "type": "FOUNDATION_AND_ROADS",
+      "category": "BUILD",
+      "vo": "Đặt nền, kẻ đường, tạo khung thành phố.",
+      "actions": [
+        {"type":"BUILD_BLUEPRINT","path":"tokyo/plaza.json"},
+        {"type":"BUILD_BLUEPRINT","path":"tokyo/road_grid.json"},
+        {"type":"CAM","mode":"crane_down","sec":8}
+      ]
+    },
+    {
+      "turn": 4,
+      "year": 25,
+      "type": "TOKYO_TOWER",
+      "category": "BUILD",
+      "vo": "Biểu tượng xuất hiện: Tokyo Tower mọc lên giữa trung tâm.",
+      "actions": [
+        {"type":"MONTAGE","sec":6},
+        {"type":"BUILD_BLUEPRINT","path":"tokyo/tokyo_tower.json"},
+        {"type":"CAM","mode":"wide_orbit","sec":12},
+        {"type":"MARK","label":"HIGHLIGHT"}
+      ]
+    },
+    {
+      "turn": 5,
+      "year": 50,
+      "type": "CITY_SHOWCASE",
+      "category": "BUILD",
+      "vo": "Tokyo hoàn thiện. Từ khu rừng trống rỗng, thành phố đã sống lại.",
+      "actions": [
+        {"type":"CAM","mode":"drone_path","preset":"city_showcase","sec":18},
+        {"type":"END_EPISODE"}
+      ]
+    }
+  ],
+  "youtube": {
+    "title": "Minecraft AI: 9WOKE Builds TOKYO From Scratch (Episode 1)",
+    "desc": "9WOKE bắt đầu từ rừng hoang vu và xây Tokyo từ con số 0: đường phố, quảng trường, Tokyo Tower…",
+    "tags": ["minecraft ai","minecraft civilization","build tokyo","9woke","timelapse city"]
+  }
+}

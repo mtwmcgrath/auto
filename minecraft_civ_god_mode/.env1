@@ -1,0 +1,25 @@
+# ===== Minecraft Server =====
+MC_HOST=127.0.0.1
+MC_PORT=25565
+MC_BOT_CIV_USERNAME=9woke
+MC_BOT_CAM_USERNAME=CameraBot
+MC_BOT_DIRECTOR_USERNAME=DirectorBot
+
+# ===== Story =====
+STORY_FILE=9woke_story.json
+
+# ===== Director anti-spam =====
+DIRECTOR_CMD_DELAY_MS=1500
+
+# ===== Civ bot (REAL SURVIVAL) =====
+CIV_USE_TP_FALLBACK=true
+CIV_CHOP_RADIUS=18
+
+# ===== OBS WebSocket (OBS 29+ built-in) =====
+OBS_WS_URL=ws://127.0.0.1:4455
+OBS_WS_PASSWORD=123456
+
+# ===== Output folders =====
+RECORDINGS_DIR=recordings
+MARKERS_DIR=markers
+EVENTS_DIR=data/events
